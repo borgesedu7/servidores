@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="IFRN.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+</head>
+
+<body class="gradient">
+    
+    <nav class="cabecario">
+            <div id="logo">
+                <img src="images-removebg-preview.png" style="height: auto;">
+            </div>
+            <div id="pesquisa">
+                <input id="barraTexto" type="text" placeholder="Pesquise Aqui!">
+                <a id="butaoPesquisa" href="#">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <div class="usuario">
+                <ul>
+                    <li class="list act">
+                        <a href="#">
+                            <span class="icon"><i class="fa-regular fa-user"></i></span>
+                            <span class="title">Conta</span>
+                        </a>
+                    </li>
+                    <li class="list" >
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-gear"></i></span>
+                            <span class="title">Configurações</span>
+                        </a>
+                    </li>
+                    <li class="list" >       
+                        <a href="#">
+                            <span class="icon"><i class="fa-regular fa-envelope"></i></span>
+                            <span class="title">Mensagens</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon"><i class="fa-solid fa-right-from-bracket"></i></span>
+                            <span class="title">Sair</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+
+
+        
+    <div class="container" id="desfocar">
+        <div class="mapaIfrn">
+            <img src="mapaSemFundo.png" style="width:70% ; height: auto;">
+            <button class="botao" id="caico" onclick="desfocar()"><h1 id="textoBotoes"> Caicó </h1></button>
+            <button class="botao" id="curraisNovos" onclick="desfocar()"><h1 id="textoBotoes"> Currais Novos </h1></button>
+            <button class="botao" id="pauDosFerros" onclick="desfocar()"><h1 id="textoBotoes"> Pau dos Ferros </h1></button>
+            <button class="botao" id="mossoro" onclick="desfocar()"><h1 id="textoBotoes"> Mossoro </h1></button>
+            <button class="botao" id="macau" onclick="desfocar()"><h1 id="textoBotoes"> Macau </h1></button>
+            <button class="botao" id="joaoCamara" onclick="desfocar()"><h1 id="textoBotoes"> Joao Camara </h1></button>
+            <button class="botao" id="santaCruz" onclick="desfocar()"><h1 id="textoBotoes">Santa Cruz</h1></button>
+            <button class="botao" id="spDoPotengi" onclick="desfocar()"><h1 id="textoBotoes">Sao Paulo do Potengi</h1></button>
+            <button class="botao" id="novaCruz" onclick="desfocar()"><h1 id="textoBotoes">Nova Cruz</h1></button>
+            <button class="botao" id="canguaretama" onclick="desfocar()"><h1 id="textoBotoes">Canguaretama</h1></button>
+            <button class="botao" id="cearaMirim" onclick="desfocar()"><h1 id="textoBotoes">Ceara-Mirim</h1></button>
+            <button class="botao" id="ipaguançu" onclick="desfocar()"><h1 id="textoBotoes">Ipaguançu</h1></button>
+            <button class="botao" id="apodi" onclick="desfocar()"><h1 id="textoBotoes"> Apodi </h1></button>
+            <button class="botao" id="natal" onclick="desfocar()"><h1 id="textoBotoes"> Natal </h1></button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="boxs">
+            <h2>Endereço</h2>
+            <ul>
+                <li><a href="#">Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte | Reitoria</a></li>
+                <li><a href="#">Rua Dr. Nilo Bezerra Ramalho, 1692, Tirol</a></li>
+                <li><a href="#">CEP: 59015-300</a></li>
+                <li><a href="#">Lista Completa de Telefones</a></li>
+            </ul>
+        </div>
+        <div class="boxs">
+            <h2>Contato</h2>
+            <ul>
+                 <li><a href="#">Assessoria de Comunicação Social e Eventos (ASCE)</a></li>
+                <li><a href="#">E-mail: comunicacao.reitoria@ifrn.edu.br</a></li>
+                <li><a href="#">Telefone: (84) 4005-0757</a></li>
+                <li><a href="#">Horário de Atendimento:8h às 12h | 14h às 18h (segunda a sexta-feira)</a></li>
+            </ul>
+        </div>
+    </footer>
+    </div>
+        <div class="footer">
+            <img src="logo-ifrn.png" alt="" style="height: 10vh;">
+        <div class="sociais" >
+            <div class="social">
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </div>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="popup" class="popup">
+        <img id="imgCaico" src="IFRN_Caico.jpg">
+        <button class="botaoPopup" id="fechar" onclick="desfocar()"> Fechar </button>
+        <button class="botaoPopup" id="redirecionar" style="width: 29vh;"><a href="CampusCaico.html" style="white-space: nowrap;">Ir para o Campus</a></button> 
+        </div>
+
+    <script>
+        function desfocar() {
+            var blur = document.getElementById('desfocar');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+
+        const list = document.querySelectorAll('.list');
+        function activateLink(){
+            list.forEach((item) =>
+            item.classList.remove('act'));
+            this.classList.add('act');
+        }
+            list.forEach((item) =>
+            item.addEventListener('click', activateLink));
+    </script>
+
+    <script src="https://kit.fontawesome.com/606f497f59.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
